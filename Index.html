@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="todo">
+
+        <div class="topline">
+
+            <span class="eyebrow">ORGANIZE SEU DIA</span>
+
+            <span class="sparkle">✦</span>
+
+        </div>
+
+        <h1>
+
+            Pequenos passos,<br>
+
+            <span>grandes conquistas.</span>
+
+        </h1>
+
+        <p class="subtitle">
+
+            Tire as ideias da cabeça e coloque no papel.
+
+        </p>
+
+        <form id="taskForm">
+
+            <input
+
+                id="taskInput"
+
+                type="text"
+
+                maxlength="90"
+
+                placeholder="O que você precisa fazer?"
+
+                autocomplete="off"
+
+                required
+
+            >
+
+            <button type="submit">+</button>
+
+        </form>
+
+        <div class="summary">
+
+            <span id="taskCount">0 tarefas</span>
+
+            <span id="doneCount">0 concluídas</span>
+
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <p id="emptyMessage" class="empty">
+
+            ☁️ Sua lista está vazia. Adicione uma tarefa!
+
+        </p>
+
+        <footer>
+
+            Um dia de cada vez. Você consegue!
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
